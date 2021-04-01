@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="200.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.DialogWindow">
+   <children>
+      <AnchorPane fx:id="titlePane" prefHeight="34.0" prefWidth="400.0" style="-fx-background-color: #2ecc71;">
+         <children>
+            <Label alignment="CENTER" layoutX="-5.0" layoutY="-1.0" prefHeight="50.0" prefWidth="406.0" stylesheets="@../css/studentFrom.css" text="Delete" textFill="WHITE">
+               <font>
+                  <Font name="Montserrat ExtraBold Italic" size="29.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Button fx:id="cancelButton" layoutX="32.0" layoutY="143.0" mnemonicParsing="false" onAction="#goBackAction" prefHeight="34.0" prefWidth="77.0" text="Cancel" />
+      <Button fx:id="acceptButton" layoutX="290.0" layoutY="143.0" mnemonicParsing="false" onAction="#deleteEntry" prefHeight="34.0" prefWidth="77.0" text="Yes" />
+      <Label alignment="CENTER" layoutY="53.0" prefHeight="61.0" prefWidth="401.0" stylesheets="@../css/studentFrom.css" text="Are you sure you want" textFill="#323232">
+         <font>
+            <Font name="Montserrat ExtraBold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="5.0" layoutY="83.0" prefHeight="61.0" prefWidth="393.0" stylesheets="@../css/studentFrom.css" text=" to delete this entry?" textFill="#323232">
+         <font>
+            <Font name="Montserrat ExtraBold Italic" size="18.0" />
+         </font>
+      </Label>
+   </children>
+   <effect>
+      <DropShadow />
+   </effect>
+</AnchorPane>

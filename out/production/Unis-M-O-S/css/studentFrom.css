@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    -fx-font-family: Montserrat;
+}
+
+/*.root *{*/
+/*    -fx-border-radius: 20;*/
+/*    -fx-background-radius: 20;*/
+/*}*/
+.root {
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+}
+
+.sidebar-button{
+    -fx-background-color: #e74c3c;
+    -fx-font-family: FontAwesome;
+}
+.sidebar-button:hover{
+    -fx-background-color: #c0392b;
+}
+.sidebar-button-professor{
+    -fx-background-color: #2ecc71;
+}
+.sidebar-button-professor:hover{
+    -fx-background-color: #27ae60;
+}
+.sidebar-button-secretary{
+    -fx-background-color: #9b59b6;
+}
+.sidebar-button-secretary:hover{
+    -fx-background-color: #8e44ad;
+}
+
+.student-entry {
+    -fx-background-color: white;
+}
+
+.student-entry:hover {
+    -fx-background-color: grey;
+}
+.exam-entry {
+    /*-fx-background-color: white;*/
+}
+
+.exam-entry:hover {
+    /*-fx-background-color: grey;*/
+}
+
+.green-bg{
+    -fx-background-color: #7AE1A5;
+}
+.green-bg:hover{
+    -fx-background-color: #59D98E;
+}
+.red-bg{
+    -fx-background-color: #F08A7F;
+}
+.red-bg:hover{
+    -fx-background-color: #EC695B;
+}
+
+.blue-bg {
+    -fx-background-color: #74B9E7;
+}
+
+.blue-bg:hover{
+    -fx-background-color: #3F9FDE;
+}
+.login-button{
+    -fx-font-weight: 900;
+    -fx-font-size: 14;
+    -fx-background-color: #6F73EE;
+    -fx-text-fill: white;
+}
+.login-button:hover{
+    -fx-background-color: #4E57C6;
+    -fx-font-weight: 900;
+    -fx-font-size: 14;
+    -fx-text-fill: white;
+}
+.singup-button{
+    -fx-background-color: #fdfdfd;
+    -fx-text-fill: #313274;
+    -fx-font-weight: 900;
+    -fx-font-size: 14;
+}
+.singup-button:hover{
+    -fx-background-color: #fdfdfd;
+    -fx-text-fill: #313274;
+    -fx-font-weight: 900;
+    -fx-font-size: 14;
+}
+
+.button-close{
+    -fx-border-radius: 30;
+    -fx-background-radius: 30;
+    -fx-pref-width: 30;
+    -fx-pref-height: 30;
+}
