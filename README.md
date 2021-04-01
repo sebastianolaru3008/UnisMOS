@@ -20,6 +20,6 @@ This is a college project for OOP course which embeds OOP principles in Java. Be
 
 Contributors names and contact info
  
-[Sebastian Olarus](https://twitter.com/dompizzie)
+[Sebastian Olarus](https://www.linkedin.com/in/sebastian-olaru-800714197/)
 [Victor Mosolea](https://www.linkedin.com/in/victor-andrei-mo%C8%99olea-a68a17179/)
 [Cosmin Stretea](https://www.linkedin.com/in/cosmin-stretea/)
